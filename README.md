@@ -26,6 +26,12 @@ You need the **OSS CAD Suite** (Yosys, Nextpnr, Icepack) and **Python 3** instal
    ```bash
     chmod +x build.sh build_test.sh
    ```
-4. Run Scripts
-./build_test.sh (Rendering Test): It removes the CPU and UART input
-./build.sh (Full System): Compiles the complete system (GPU + CPU + Firmware). But the player movement control via UART is not working yet.
+4. Run Scripts:
+- **Rendering Test:** It removes the CPU and UART input
+   ```bash
+    ./build_test.sh 
+   ```
+- **Full System:** Compiles the complete system (GPU + CPU + Firmware). But the player movement control via UART is not working yet.
+   ```bash
+    ./build.sh 
+   ```
