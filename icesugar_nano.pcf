@@ -1,0 +1,27 @@
+# iCESugar-nano (Lattice iCE40LP1K - cm36)
+
+# 12 MHz Clock System
+set_io clk D1
+
+# LED
+set_io led B6
+
+#   PMOD FULL (PMOD3)
+#   FPGA pins:
+#
+#     ----------
+#    | B4    C6 |
+#    | B5    E3 |
+#    | E1    C2 |
+#    | B1    A1 |
+#    | GND  GND |
+#    | 3V3  3V3 |
+#     ----------
+#
+
+set_io uart_rx B3
+set_io spi_cs  B4
+set_io spi_sda B5
+set_io spi_dc  E1
+set_io spi_sck B1
+set_io spi_res C6
