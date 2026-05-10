@@ -19,7 +19,6 @@ set_io led B6
 #     ----------
 #
 
-set_io uart_rx B3
 set_io spi_cs  B4
 set_io spi_sda B5
 set_io spi_dc  E1

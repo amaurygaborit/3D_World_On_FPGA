@@ -11,9 +11,9 @@ package mini_minecraft_pkg;
     localparam WORLD_SIZE = WORLD_L * WORLD_L * 7; // Total map blocks
     
     // Camera & Raycaster
-    localparam FOV_H = 60;
-    localparam FOV_V = 60;
-    localparam PLAYER_HEIGHT = 2;       // Eye level offset
+    localparam FOV_H = 70;
+    localparam FOV_V = 70;
+    localparam PLAYER_HEIGHT = 1.5;       // Eye level offset
     localparam MAX_TRANSPARENCY_DEPTH = 0;
 
     // CPU Architecture
